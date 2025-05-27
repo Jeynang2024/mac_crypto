@@ -1,0 +1,11 @@
+
+streamlit
+plotly
+pandas
+backtrader
+websocket-client
+numpy
+
+python-binance
+matplotlib
+
