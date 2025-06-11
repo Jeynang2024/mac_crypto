@@ -49,12 +49,7 @@ def run_backtest_wrapper(strategy_class, strategy_params, symbol, money, startda
     try:
         cerebro ,data,buy_signals ,sell_signals= run_backtest(strategy_class, strategy_params, symbol, money, startdate, enddate, interval)
         fig, ax = plt.subplots(figsize=(14, 7))
-        '''print("love u")
-        print(buy_signals)
-        print("herde")
-        print("sell:",sell_signals)
-
-        print(data)'''
+        
 
         
 
